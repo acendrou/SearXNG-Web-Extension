@@ -32,7 +32,7 @@ Example:
 {
   "chrome_settings_overrides": {
     "search_provider": {
-      "search_url": "http://metasearch.ekvidi.ether/search?q={searchTerms}"
+      "search_url": "https://metasearch.ekvidi.ether/search?q={searchTerms}"
     }
   }
 }
