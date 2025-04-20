@@ -1,5 +1,5 @@
 # SearXNG-Web-Extension (Unofficial)
-[<img src="./firefox-add-ons.png" title="Firefox Add-ons" width="auto" height="47" />](https://addons.mozilla.org/en-US/firefox/addon/searxng-search) <p><a href=""><img src="https://img.shields.io/amo/users/searxng-search?style=flat-square" alt="Badge" /></a></p>
+
 
 # SearXNG
 
@@ -32,7 +32,7 @@ Example:
 {
   "chrome_settings_overrides": {
     "search_provider": {
-      "search_url": "https://searx.be/search?q={searchTerms}"
+      "search_url": "http://metasearch.ekvidi.ether/search?q={searchTerms}"
     }
   }
 }
@@ -48,6 +48,8 @@ If you want use **SearXNG** as support to main search engine do this:
 4. use keywords like `@searxng, @searx, @sx` if you want use **SearXNG** when you make request
 
 # Contributors
+[**acendrou**](https://github.com/acendrou)
+
 [**Erghel**](https://github.com/Erghel) - main contributor.
 
 [**Rodion Borisov**](https://github.com/vintprox) - found `"suggestion_url"` and etc.  
